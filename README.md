@@ -1,13 +1,13 @@
 # Tabulate
 
-`Tabulate` es una librería simple para formatear listas en tablas con múltiples columnas en Python. Es útil para mostrar datos de forma ordenada en la terminal, similar al comando `column` de Bash.
+`Columnator` es una librería simple para formatear listas en tablas con múltiples columnas en Python. Es útil para mostrar datos de forma ordenada en la terminal, similar al comando `column` de Bash.
 
 ## Instalación
 
 Después de subir el paquete a PyPI, puedes instalarlo con:
 
 ```bash
-pip install tabulate
+pip install columnator
 ```
 
 Si estás probando localmente antes de subirlo, instálalo con:
@@ -19,7 +19,7 @@ pip install .
 ## Uso
 
 ```python
-from tabulate import format_table
+from columnator import format_table
 
 data = ["file1.txt", "file2.txt", "file3.txt", "file4.txt", "file5.txt", "file6.txt"]
 print(format_table(data, columns=3))
@@ -42,8 +42,8 @@ file2.txt      file4.txt      file6.txt
 Si deseas mejorar esta librería, ¡tus contribuciones son bienvenidas! Puedes clonar el repositorio y hacer un pull request.
 
 ```bash
-git clone https://github.com/tuusuario/tabulate.git
-cd tabulate
+git clone https://github.com/PanecilloPY/Columnator/
+cd Columnator
 ```
 
 ## Licencia
