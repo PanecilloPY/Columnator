@@ -1,4 +1,4 @@
-# Tabulate
+# Columnator
 
 `Columnator` es una librería simple para formatear listas en tablas con múltiples columnas en Python. Es útil para mostrar datos de forma ordenada en la terminal, similar al comando `column` de Bash.
 
