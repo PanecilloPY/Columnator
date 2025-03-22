@@ -10,12 +10,6 @@ Después de subir el paquete a PyPI, puedes instalarlo con:
 pip install columnator
 ```
 
-Si estás probando localmente antes de subirlo, instálalo con:
-
-```bash
-pip install .
-```
-
 ## Uso
 
 ```python
